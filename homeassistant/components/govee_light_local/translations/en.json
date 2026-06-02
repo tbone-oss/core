@@ -1,0 +1,45 @@
+{
+    "config": {
+        "abort": {
+            "no_devices_found": "No devices found on the network",
+            "single_instance_allowed": "Already configured. Only a single configuration is possible."
+        },
+        "step": {
+            "confirm": {
+                "description": "Do you want to start setup?"
+            }
+        }
+    },
+    "entity": {
+        "light": {
+            "govee_light": {
+                "state_attributes": {
+                    "effect": {
+                        "state": {
+                            "breathe": "Breathe",
+                            "candlelight": "Candlelight",
+                            "crossing": "Crossing",
+                            "dating": "Dating",
+                            "energetic": "Energetic",
+                            "movie": "Movie",
+                            "none": "None",
+                            "romantic": "Romantic",
+                            "snowflake": "Snowflake",
+                            "sunrise": "Sunrise",
+                            "sunset": "Sunset",
+                            "twinkle": "Twinkle"
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "exceptions": {
+        "no_devices_found": {
+            "message": "No devices found on the network"
+        },
+        "port_in_use": {
+            "message": "Port {port} is already in use"
+        }
+    }
+}

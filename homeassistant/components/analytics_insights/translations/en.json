@@ -1,0 +1,69 @@
+{
+    "config": {
+        "abort": {
+            "cannot_connect": "Failed to connect",
+            "unknown": "Unexpected error"
+        },
+        "error": {
+            "no_integrations_selected": "You must select at least one integration to track"
+        },
+        "step": {
+            "user": {
+                "data": {
+                    "tracked_apps": "Apps",
+                    "tracked_custom_integrations": "Custom integrations",
+                    "tracked_integrations": "Integrations"
+                },
+                "data_description": {
+                    "tracked_apps": "Select the apps you want to track",
+                    "tracked_custom_integrations": "Select the custom integrations you want to track",
+                    "tracked_integrations": "Select the integrations you want to track"
+                }
+            }
+        }
+    },
+    "entity": {
+        "sensor": {
+            "apps": {
+                "unit_of_measurement": "active installations"
+            },
+            "core_integrations": {
+                "unit_of_measurement": "active installations"
+            },
+            "custom_integrations": {
+                "name": "{custom_integration_domain} (custom)",
+                "unit_of_measurement": "active installations"
+            },
+            "total_active_installations": {
+                "name": "Total active installations",
+                "unit_of_measurement": "active installations"
+            },
+            "total_reports_integrations": {
+                "name": "Total reported integrations",
+                "unit_of_measurement": "active installations"
+            }
+        }
+    },
+    "options": {
+        "abort": {
+            "cannot_connect": "Failed to connect"
+        },
+        "error": {
+            "no_integrations_selected": "You must select at least one integration to track"
+        },
+        "step": {
+            "init": {
+                "data": {
+                    "tracked_apps": "Apps",
+                    "tracked_custom_integrations": "Custom integrations",
+                    "tracked_integrations": "Integrations"
+                },
+                "data_description": {
+                    "tracked_apps": "Select the apps you want to track",
+                    "tracked_custom_integrations": "Select the custom integrations you want to track",
+                    "tracked_integrations": "Select the integrations you want to track"
+                }
+            }
+        }
+    }
+}

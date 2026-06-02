@@ -1,0 +1,92 @@
+{
+    "config": {
+        "abort": {
+            "already_configured": "Device is already configured"
+        },
+        "error": {
+            "cannot_connect": "Failed to connect - check serial number",
+            "invalid_ip": "Invalid IP address",
+            "invalid_serial": "Invalid serial number",
+            "unknown": "Unexpected error"
+        },
+        "step": {
+            "manual": {
+                "data": {
+                    "ip_address": "IP address",
+                    "serial": "Serial number (12 digits)"
+                },
+                "data_description": {
+                    "ip_address": "The IP address of your Nob\u00f8 Ecohub.",
+                    "serial": "The full 12-digit serial number printed on the back of your Nob\u00f8 Ecohub."
+                },
+                "description": "Configure a Nob\u00f8 Ecohub not discovered on your local network. If your hub is on another network, you can still connect to it by entering the complete serial number (12 digits) and its IP address."
+            },
+            "selected": {
+                "data": {
+                    "serial_suffix": "Serial number suffix (3 digits)"
+                },
+                "data_description": {
+                    "serial_suffix": "The last 3 digits of the serial number printed on the back of your Nob\u00f8 Ecohub."
+                },
+                "description": "Configuring {hub}.\r\rTo connect to the hub, you need to enter the last 3 digits of the hub's serial number."
+            },
+            "user": {
+                "data": {
+                    "device": "Discovered hubs"
+                },
+                "data_description": {
+                    "device": "Select the Nob\u00f8 Ecohub discovered on your local network, or choose manual entry."
+                },
+                "description": "Select Nob\u00f8 Ecohub to configure."
+            }
+        }
+    },
+    "entity": {
+        "select": {
+            "global_override": {
+                "name": "Global override",
+                "state": {
+                    "away": "Away",
+                    "comfort": "Comfort",
+                    "eco": "Eco",
+                    "none": "None"
+                }
+            },
+            "week_profile": {
+                "name": "Week profile"
+            }
+        }
+    },
+    "exceptions": {
+        "cannot_connect_manual": {
+            "message": "Unable to connect to Nob\u00f8 Ecohub with serial {serial} at {ip}. If the hub has moved to a new IP address, remove and re-add the integration."
+        },
+        "cannot_connect_rediscovered": {
+            "message": "Unable to connect to Nob\u00f8 Ecohub at rediscovered IP {ip}; will retry."
+        },
+        "hub_not_found": {
+            "message": "Nob\u00f8 Ecohub with serial {serial} not found on the network. The hub may be offline or on a different subnet; will retry."
+        }
+    },
+    "options": {
+        "step": {
+            "init": {
+                "data": {
+                    "override_type": "Override type"
+                },
+                "data_description": {
+                    "override_type": "Select \"Now\" to end the override on the next week profile change, or \"Constant\" to keep it until manually cleared."
+                },
+                "description": "Configure how overrides are ended."
+            }
+        }
+    },
+    "selector": {
+        "override_type": {
+            "options": {
+                "constant": "Constant",
+                "now": "Now"
+            }
+        }
+    }
+}

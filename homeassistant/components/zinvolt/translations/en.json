@@ -1,0 +1,71 @@
+{
+    "config": {
+        "abort": {
+            "already_configured": "Account is already configured"
+        },
+        "error": {
+            "cannot_connect": "Failed to connect",
+            "invalid_auth": "Invalid authentication",
+            "unknown": "Unexpected error"
+        },
+        "initiate_flow": {
+            "user": "Add account"
+        },
+        "step": {
+            "user": {
+                "data": {
+                    "email": "Email",
+                    "password": "Password"
+                },
+                "data_description": {
+                    "email": "The email of your Zinvolt account.",
+                    "password": "The password of your Zinvolt account."
+                }
+            }
+        }
+    },
+    "entity": {
+        "binary_sensor": {
+            "charge": {
+                "name": "Charge"
+            },
+            "communication": {
+                "name": "Communication"
+            },
+            "current": {
+                "name": "Current"
+            },
+            "discharge": {
+                "name": "Discharge"
+            },
+            "on_grid": {
+                "name": "Grid connection"
+            },
+            "other": {
+                "name": "Other problems"
+            },
+            "voltage": {
+                "name": "Voltage"
+            }
+        },
+        "number": {
+            "lower_threshold": {
+                "name": "Minimum charge level"
+            },
+            "max_output": {
+                "name": "Maximum output"
+            },
+            "standby_time": {
+                "name": "Standby time"
+            },
+            "upper_threshold": {
+                "name": "Maximum charge level"
+            }
+        }
+    },
+    "exceptions": {
+        "update_failed": {
+            "message": "An error occurred while updating the Zinvolt integration."
+        }
+    }
+}

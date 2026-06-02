@@ -1,0 +1,40 @@
+{
+    "config": {
+        "abort": {
+            "already_configured": "Device is already configured",
+            "no_devices_found": "No Comet Blue Bluetooth TRVs discovered.",
+            "reconfigure_successful": "Reconfiguration was successful"
+        },
+        "error": {
+            "cannot_connect": "Failed to connect",
+            "invalid_pin": "Invalid device PIN",
+            "timeout_connect": "Timeout while establishing a connection",
+            "unknown": "Unexpected error"
+        },
+        "step": {
+            "bluetooth_confirm": {
+                "data": {
+                    "pin": "PIN code"
+                },
+                "data_description": {
+                    "pin": "6-digit device PIN"
+                }
+            },
+            "pick_device": {
+                "data": {
+                    "address": "Discovered devices"
+                },
+                "data_description": {
+                    "address": "Select device to continue."
+                }
+            }
+        }
+    },
+    "entity": {
+        "button": {
+            "sync_time": {
+                "name": "Sync time"
+            }
+        }
+    }
+}

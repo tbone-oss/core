@@ -1,0 +1,55 @@
+{
+    "config": {
+        "abort": {
+            "already_configured": "Device is already configured"
+        },
+        "error": {
+            "cannot_connect": "Failed to connect",
+            "invalid_host": "Invalid hostname or IP address"
+        },
+        "step": {
+            "user": {
+                "data": {
+                    "host": "Host",
+                    "port": "Port"
+                },
+                "data_description": {
+                    "host": "The hostname or IP address of your Snapcast server."
+                },
+                "description": "Please enter your server connection details",
+                "title": "Connect"
+            }
+        }
+    },
+    "exceptions": {
+        "join_players_no_group": {
+            "message": "Client {entity_id} has no group. Unable to join players."
+        },
+        "select_source_no_group": {
+            "message": "Client {entity_id} has no group. Unable to select source {source}."
+        },
+        "unjoin_no_group": {
+            "message": "Client {entity_id} has no group. Unable to unjoin player."
+        }
+    },
+    "services": {
+        "restore": {
+            "description": "Restores a previously taken snapshot of a media player.",
+            "name": "Restore"
+        },
+        "set_latency": {
+            "description": "Sets the latency of a speaker.",
+            "fields": {
+                "latency": {
+                    "description": "Latency in milliseconds.",
+                    "name": "Latency"
+                }
+            },
+            "name": "Set latency"
+        },
+        "snapshot": {
+            "description": "Takes a snapshot of what is currently playing on a media player.",
+            "name": "Snapshot"
+        }
+    }
+}

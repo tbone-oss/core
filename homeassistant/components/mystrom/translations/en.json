@@ -1,0 +1,38 @@
+{
+    "config": {
+        "abort": {
+            "already_configured": "Device is already configured",
+            "cannot_connect": "Failed to connect"
+        },
+        "error": {
+            "cannot_connect": "Failed to connect"
+        },
+        "step": {
+            "discovery_confirm": {
+                "description": "Do you want to set up the myStrom device at {host}?"
+            },
+            "user": {
+                "data": {
+                    "host": "Host",
+                    "name": "Name"
+                },
+                "data_description": {
+                    "host": "The hostname or IP address of your myStrom device."
+                }
+            }
+        }
+    },
+    "entity": {
+        "sensor": {
+            "avg_consumption": {
+                "name": "Average consumption"
+            },
+            "energy_since_boot": {
+                "name": "Energy since boot"
+            },
+            "time_since_boot": {
+                "name": "Last restart"
+            }
+        }
+    }
+}

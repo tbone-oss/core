@@ -1,0 +1,54 @@
+{
+    "config": {
+        "abort": {
+            "already_configured": "Device is already configured"
+        },
+        "error": {
+            "cannot_connect": "Failed to connect",
+            "invalid_auth": "Invalid authentication",
+            "unknown": "Unexpected error"
+        },
+        "step": {
+            "user": {
+                "data": {
+                    "api_token": "API token"
+                },
+                "data_description": {
+                    "api_token": "The Lichess API token of the player."
+                }
+            }
+        }
+    },
+    "entity": {
+        "sensor": {
+            "blitz_games": {
+                "name": "Blitz games",
+                "unit_of_measurement": "games"
+            },
+            "blitz_rating": {
+                "name": "Blitz rating"
+            },
+            "bullet_games": {
+                "name": "Bullet games",
+                "unit_of_measurement": "games"
+            },
+            "bullet_rating": {
+                "name": "Bullet rating"
+            },
+            "classical_games": {
+                "name": "Classical games",
+                "unit_of_measurement": "games"
+            },
+            "classical_rating": {
+                "name": "Classical rating"
+            },
+            "rapid_games": {
+                "name": "Rapid games",
+                "unit_of_measurement": "games"
+            },
+            "rapid_rating": {
+                "name": "Rapid rating"
+            }
+        }
+    }
+}
